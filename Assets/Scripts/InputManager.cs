@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     [SerializeField] GameObject spawnable;
+    public float projVelocity = 700f;
 
     void Update()
     {
@@ -13,7 +14,8 @@ public class InputManager : MonoBehaviour
             mousePos.z = 2;
 
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            Instantiate(spawnable, mousePos, Quaternion.identity); 
+            GameObject proj = Instantiate(spawnable, mousePos, Quaternion.identity);
+            //proj.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, projVelocity, 0));
         }
     }
 }
