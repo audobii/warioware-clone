@@ -6,7 +6,7 @@ public class WASDControl : MonoBehaviour
 {
     void Update()
     {
-        //directions dont match up - "W"/forward is left, etc.
+        //directions dont match up - "W"/forward is left, etc. bc of how i oriented the object?
 
         if(Input.GetKey(KeyCode.W))
         {
