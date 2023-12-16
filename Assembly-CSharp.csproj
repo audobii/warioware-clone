@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\RingTrigger.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\MenuButtonManager.cs" />
     <Compile Include="Assets\Scripts\MelonTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
