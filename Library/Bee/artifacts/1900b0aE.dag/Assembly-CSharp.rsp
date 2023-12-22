@@ -361,6 +361,7 @@
 "Assets/Scripts/MenuButtonManager.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/RingTrigger.cs"
+"Assets/Scripts/RotatingObject.cs"
 "Assets/Scripts/Target.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/Scripts/WASDControl.cs"
