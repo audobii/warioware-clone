@@ -1672,10 +1672,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Font - Pajama Pants by Shara Weber (sharasfonts)
-
-
-    Made in Unity 2022.3.7f1'
+  m_text: "Font - Pajama Pants by Shara Weber (sharasfonts)\n\n- Assets -\nSimplistic
+    Low Poly Nature by Acorn Bringer \n\nMade in Unity 2022.3.7f1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 233151d5e19a9dd46b13a53d7d9bff9e, type: 2}
   m_sharedMaterial: {fileID: 3721007500692085010, guid: 233151d5e19a9dd46b13a53d7d9bff9e, type: 2}

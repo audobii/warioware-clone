@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    float maxTime = 5.0f;
+    public float maxTime = 5.0f;
     [SerializeField] GameObject timeTextObj;
     TextMeshProUGUI timeText;
-    private float currTime;
+    public float currTime;
 
     void Start()
     {
